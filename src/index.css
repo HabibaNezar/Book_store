@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background-color: #FAF9F6;
+  --primary-color: #3E4C59;
+  --accent-color: #C89B6D;
+  --accent-color-light: #E3DCCC;
+  --text-color: #2B2B2B;
+  --second-color: #B0987E;
+  
+}
+
+body{
+  font-family: "Overlock", sans-serif;
+  overflow-x: hidden;
+  background-color: var(--background-color);
+}
+
+/* category */
+.clip-triangle {
+  clip-path: polygon(100% 0, 100% 100%, 0 120%);
+}
+
